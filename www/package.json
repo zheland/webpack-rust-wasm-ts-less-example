@@ -1,0 +1,41 @@
+{
+    "name": "webpack-rust-wasm-ts-less-template",
+    "collaborators": [
+        "Andrey Zheleznov <zheland.net@gmail.com>"
+    ],
+    "description": "Web application template with Webpack, Rust-generated WASM, TypeScript and LESS",
+    "version": "0.1.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zheland/webpack-rust-wasm-ts-less-template/"
+    },
+    "scripts": {
+        "build": "rimraf pkg dist && webpack --env.mode=production",
+        "host": "simple-http-server dist --index --ip 127.0.0.1 -p 8080",
+        "debug": "webpack-dev-server --env.mode=development --open -d",
+        "test": "cd ../wasm && cargo test && wasm-pack test --node && wasm-pack test --chrome --firefox --safari"
+    },
+    "devDependencies": {
+        "@wasm-tool/wasm-pack-plugin": "^1.2.0",
+        "css-loader": "^3.5.2",
+        "html-webpack-plugin": "^4.2.0",
+        "http-server": "^0.12.1",
+        "less": "^3.11.1",
+        "less-loader": "^5.0.0",
+        "less-plugin-clean-css": "^1.5.1",
+        "mini-css-extract-plugin": "^0.9.0",
+        "on-build-webpack2": "^0.2.0",
+        "remove-files-webpack-plugin": "^1.4.0",
+        "rename-css-selectors": "^3.3.0",
+        "rimraf": "^3.0.2",
+        "style-loader": "^1.1.4",
+        "ts-loader": "^7.0.0",
+        "typescript": "^3.8.3",
+        "wasm": "file:../wasm/pkg",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3",
+        "webpack-merge": "^4.2.2"
+    }
+}
