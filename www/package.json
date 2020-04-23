@@ -20,7 +20,6 @@
         "@wasm-tool/wasm-pack-plugin": "^1.2.0",
         "css-loader": "^3.5.2",
         "html-webpack-plugin": "^4.2.0",
-        "http-server": "^0.12.1",
         "less": "^3.11.1",
         "less-loader": "^5.0.0",
         "less-plugin-clean-css": "^1.5.1",
