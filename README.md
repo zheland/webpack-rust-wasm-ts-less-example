@@ -11,7 +11,7 @@ Differences:
 * JavaScript compiled from TypeScript.
 * CSS compiled from LESS and compressed with [clean-css](https://github.com/jakubpawlowicz/clean-css)
 * CSS selectors are minified/uglified with [rename-css-selectors](https://github.com/JPeer264/node-rename-css-selectors).
-`
+
 ## Setup
 
 ### On *nix:
