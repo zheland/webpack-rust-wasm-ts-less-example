@@ -46,4 +46,3 @@ module.exports = ({ mode } = { mode: "development" }) =>
             })
         ],
     }, modeConfig(mode));
-
