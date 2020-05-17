@@ -1,11 +1,11 @@
 [package]
-name = "webpack-rust-wasm-ts-less-template"
+name = "webpack-rust-wasm-ts-less-example"
 version = "0.1.0"
 authors = ["Andrey Zheleznov <zheland.net@gmail.com>"]
 edition = "2018"
-description = "Web application template with Webpack, Rust-generated WASM, TypeScript and LESS"
+description = "Web application example with Webpack, Rust-generated WASM, TypeScript and LESS"
 readme = "README.md"
-repository = "https://github.com/zheland/webpack-rust-wasm-ts-less-template"
+repository = "https://github.com/zheland/webpack-rust-wasm-ts-less-example"
 license = "MIT OR Apache-2.0"
 categories = ["wasm"]
 keywords = ["wasm"]

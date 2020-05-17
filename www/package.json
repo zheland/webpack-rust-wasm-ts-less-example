@@ -1,7 +1,7 @@
 {
-    "name": "webpack-rust-wasm-ts-less-template",
+    "name": "webpack-rust-wasm-ts-less-example",
     "version": "0.1.0",
-    "description": "Web application template with Webpack, Rust-generated WASM, TypeScript and LESS",
+    "description": "Web application example with Webpack, Rust-generated WASM, TypeScript and LESS",
     "scripts": {
         "build": "rimraf pkg dist && webpack --env.mode=production",
         "host": "simple-http-server dist --index --ip 127.0.0.1 -p 8080",
@@ -10,11 +10,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zheland/webpack-rust-wasm-ts-less-template.git"
+        "url": "https://github.com/zheland/webpack-rust-wasm-ts-less-example.git"
     },
     "keywords": [
         "webpack",
-        "template",
+        "example",
         "rust",
         "wasm",
         "typescript",
@@ -23,9 +23,9 @@
     "author": "Andrey Zheleznov <zheland.net@gmail.com>",
     "license": "MIT OR Apache-2.0",
     "bugs": {
-        "url": "https://github.com/zheland/webpack-rust-wasm-ts-less-template/issues"
+        "url": "https://github.com/zheland/webpack-rust-wasm-ts-less-example/issues"
     },
-    "homepage": "https://github.com/zheland/webpack-rust-wasm-ts-less-template#readme",
+    "homepage": "https://github.com/zheland/webpack-rust-wasm-ts-less-example#readme",
     "devDependencies": {
         "@wasm-tool/wasm-pack-plugin": "^1.2.0",
         "css-loader": "^3.5.2",

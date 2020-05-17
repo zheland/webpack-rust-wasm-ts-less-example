@@ -1,11 +1,11 @@
-# Web application template with Webpack, Rust-generated WASM, TypeScript and LESS
+# Web application example with Webpack, Rust-generated WASM, TypeScript and LESS
 
 ## About
 
-This template is designed for creating Web applications with Webpack,
+This example is designed for creating Web applications with Webpack,
 Rust-generated WebAssembly, TypeScript and Less with minified class selectors.
 
-Based on [rust-webpack-template](https://github.com/rustwasm/rust-webpack-template).
+Based on [rust-webpack-example](https://github.com/rustwasm/rust-webpack-example).
 Differences:
 * Wasm and WebPack files are contained in different folders to avoid conflicts in file names.
 * JavaScript compiled from TypeScript.
