@@ -18,9 +18,11 @@ module.exports = () => ({
                         loader: "less-loader",
                         options: {
                             sourceMap: true,
-                            plugins: [
-                                new LessCleanCSSPlugin({ advanced: true })
-                            ]
+                            lessOptions: {
+                                plugins: [
+                                    new LessCleanCSSPlugin({ advanced: true })
+                                ]
+                            }
                         },
                     }
                 ]
